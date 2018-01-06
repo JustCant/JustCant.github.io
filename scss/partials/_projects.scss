@@ -1,0 +1,42 @@
+#projects {
+    
+    background: #9b9b9b;
+    
+    padding: 30px 0 5px 0;
+    
+    transform: translateY(-29%);
+    
+    transition: 0.5s ease;
+    
+    -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+    
+    h1 {
+        color: #f4f4f4;
+        font-size: 1.75rem;
+        padding-top: 10px;
+        padding-left: 30px;
+    }
+    
+//    &:hover {
+//        background-color: black;
+//        color: gold;
+//    }
+}
+
+#image-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#galleryProj,
+#formProj,
+#ccProj {
+    border-radius: 3px;
+    display: block;
+    width: 200px;
+    height: auto;
+    border: solid #cbcbcb 1px;
+}

@@ -1,0 +1,42 @@
+.accordion {
+    font-size: 1rem;
+    margin: 1% auto;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    height: 99%;
+    max-height: 80%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    color: black;
+    background-color: #cbcbcb;
+}
+
+.panel {
+    position: relative;
+    z-index: 2;
+    border-radius: 5px;
+    padding: 0 18px;
+    background-color: #333;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    
+    a {
+        color: white;
+        transition: 0.5s ease;
+        
+        &:hover {
+           color: #cbcbcb; 
+        }
+    }
+}

@@ -1,0 +1,53 @@
+#hero {
+//    margin: 0.5vh 0;
+//    height: 100vh;
+    margin: 0;
+    height: 90%;
+    max-height: 674px;
+    background-image: url('../img/pittsburgh.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: local;
+    transition: 0.5s ease;
+    position: relative;
+}
+
+#heroDiv {
+    width: 80%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#primary,
+#secondary,
+#tertiary {
+    text-align: center;
+    opacity: 0;
+    font-weight: 900;
+    color: white;
+    transition: 2s;
+}
+
+#primary {
+    width: 90%; 
+    font-size: 1.25rem;    
+    margin: 0 auto;
+}
+
+#secondary {
+    font-size: 1rem;
+}
+
+#tertiary {    
+    font-size: 0.75rem;
+}
+
+#arrow {
+    display: block;
+    opacity: 0;
+    margin: 0 auto;
+    height: 20px;
+    transition: 2s;
+}

@@ -1,0 +1,73 @@
+#contact {
+    
+    color: #333333;
+    background-color: white;
+    width: 95%;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 90%, 60% 75%, 0% 75%);
+    
+        
+    margin-top: -130px;
+    margin-bottom: -35px;
+    
+    h1 {
+        font-size: 1.75rem;
+        padding-left: 30px;
+    }
+    
+    ul,
+    p {
+        margin: 0 auto;        
+        padding-left: 0;
+        width: 80%;
+    }
+    
+    p {
+        padding-bottom: 10px;        
+    }
+    
+    ul {
+        padding-bottom: 120px;
+    }
+    
+    li {
+        list-style: none;
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+        padding: 0 0 0 30px;
+        margin: 0 0 10px;
+        transition: 0.5s ease;
+        
+        &:hover {
+            color: #a0a0a0;
+        }
+    }
+    
+    transition: 0.5s ease;
+    
+//    &:hover {
+//        background-color: gold;
+//        
+//        color: black;
+//        
+//        h1 {
+//            color: white;
+//        }
+//        
+//        a {
+//            color: black;
+//        }
+//    }
+}
+
+#phone {
+    background-image: url('../img/phone.png');    
+}
+
+#email {
+    background-image: url('../img/mail.png');    
+}
+
+#twitter {
+    background-image: url('../img/twitter.png');    
+}
