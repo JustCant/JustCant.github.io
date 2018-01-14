@@ -12,20 +12,6 @@
     
     transition: 0.5s ease;
     
-//    &:hover {
-//        background-color: gold;
-//        
-//        color: black;
-//        
-//        h1 {
-//            color: white;
-//        }
-//        
-//        a {
-//            color: black;
-//        }
-//    }
-    
     h1 {
         font-size: 1.75rem;
         color: #f4f4f4;
@@ -43,11 +29,10 @@
     #picOfMe {
         clear: both;
         display: block;
-        margin: 0 auto 0 auto;
+        margin: 0 auto 10px auto;
         width: 80%;
         max-width: 180px;
         height: auto;
         border-radius: 5px;
-        padding-bottom: 10px;
     }
 }
