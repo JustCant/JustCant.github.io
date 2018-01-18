@@ -4,8 +4,9 @@
     max-height: 674px;
     background-image: url('../img/pittsburgh.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
-    background-attachment: local;
+    background-attachment: fixed;
     transition: 0.5s ease;
     position: relative;
 }
