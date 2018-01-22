@@ -114,7 +114,7 @@
     #wrapper {
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 325px 250px;
+        grid-template-rows: 550px 250px;
         grid-column-gap: 5px;
         grid-row-gap: 5px;
         margin: 0 5px 5px 5px;
@@ -180,7 +180,8 @@
         #galleryProj,
         #formProj,
         #nlProj,
-        #trivProj{
+        #trivProj,
+        #sbProj {
             width: 300px;
         }
     }
@@ -256,7 +257,7 @@
         }
     }
     
-    #main-nav ul li a{
+    #main-nav ul li a {
         font-size: 1.5rem;
         
     }
