@@ -1,3 +1,4 @@
+//Variables
 const acc = document.getElementsByClassName('accordion');
 const primary = document.getElementById('primary');
 const secondary = document.getElementById('secondary');
