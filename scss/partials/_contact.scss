@@ -6,9 +6,7 @@
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 90%, 60% 75%, 0% 75%);
     
-        
-    margin-top: -130px;
-    margin-bottom: -35px;
+    margin-top: 10px;
     
     h1 {
         font-size: 1.75rem;
@@ -44,20 +42,6 @@
     }
     
     transition: 0.5s ease;
-    
-//    &:hover {
-//        background-color: gold;
-//        
-//        color: black;
-//        
-//        h1 {
-//            color: white;
-//        }
-//        
-//        a {
-//            color: black;
-//        }
-//    }
 }
 
 #phone {
